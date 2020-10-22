@@ -205,7 +205,7 @@ li img{
   
 }
 li :hover{
-  opacity: 50%;
+  text-shadow: 1px solid black;
 }
 p{
   text-align: left;
@@ -234,7 +234,7 @@ p{
   margin: auto;
 }
 #filters p:hover{
-  opacity: 50%;
+ font-weight: bold;
 }
 #products{
   /* background-color: rgb(248, 248, 248); */
@@ -252,7 +252,7 @@ select{
 @media only screen and (max-width: 2000px) {
   #products{
   /* background-color: rgb(248, 248, 248); */
-  width:50%;
+  width:35%;
 
   }
   #filters{
